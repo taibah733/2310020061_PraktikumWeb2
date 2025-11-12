@@ -29,7 +29,7 @@ class Mahasiswa_model extends CI_Model
     }
     public function metodeRowArray()
     {
-        $query = $this->db->where('id_mahasiswa', 1);
+        $this->db->where('id_mahasiswa', 2);
         $query = $this->db->get('mahasiswa');
         return $query->row_array();
     }

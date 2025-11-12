@@ -15,6 +15,9 @@
         <label for="nama_mhs">Nama Mahasiswa</label>
         <input type="text" name="nama_mhs" value="<?php echo $mahasiswa->nama_mhs ?>"><br>
         <input type="submit" value="Perbaharui">
+        <button type="submit">Simpan Perubahan</button>
+        <a href="<?php echo site_url('Prodi'); ?>">Batal</a>
+
     </form>
 </body>
 
